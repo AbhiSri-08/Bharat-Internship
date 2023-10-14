@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Netflix.css">
+</head>
+
+<body> <div class="it">
+        <div class="bg" id="one">
+            <div>
+                <img src="https://media.idownloadblog.com/wp-content/uploads/2018/01/Netflix-Logo.png" class="img">
+             </div>
+            <div class="d-flex flex-row top">
+                <div>
+                <select class="lan" >
+                    <option value="language">English</option>
+                    <option value="language">Hindi</option>
+                    <option value="language">Telugu</option>
+                </select>
+                </div>
+                
+                <a class="btn" href="#two">Sign In</a>
+                </div>
+                <div class="para">
+                        <div>
+                                <p class="p1">Unlimited movies,Tv shows and more<br></p>
+                                <p class="p2">Watch anywhere.cancel anytime.</p>
+                                <p class="p3">Ready to watch? Enter your Email to create or restart your membership</p>
+                        </div>
+                        <div class="d-flex flex-row">
+                                <input type="text" name="text" id="text" placeholder="Email address" required>
+                                <button class="button">Get Started ></button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+           <div class="bg2" id="two">
+             <div class="card">
+                    <h1 class="h">Sign in</h1>
+                    <input type="email" name="text" id="text" placeholder="Email or phone number" required>
+                    <input type="password" name="pass" id="pass"  placeholder="Enter password" required>
+                    <a class="btn1" href="#third">Sign In</a>
+                <div class="d-flex flex-row">
+                    <label class="p4">
+                        <input type="checkbox" name="check">Remember me
+                    </label>
+                     <p class="p5">Need Help?</p>
+                </div>
+                    <p class="p4">New to Netflix?<a href="#third">Sign up now</a></p>
+                    <p class="p4">This page is protected by Gogle reCAPTCHA  to ensure you're not a bot.<a href="#">learn more</a></p>
+             </div>
+            </div>
+            <div class="card3">
+                <div class="bg3" id="third">
+                    <div class="card1">
+                        <h1 class="h1">Sign Up</h1>
+                        <input type="text1" name="text" id="text" placeholder="Enter name" required><br>
+                        <input type="number" name="number" id="number" placeholder=" Mobile number" required><br>
+                        <input type="email1" name="email" id="email" placeholder="Email" required><br>
+                        <input type="Username" name="name" id="name" placeholder="Username" required><br>
+                        <input type1="password" name="pass" id="pass" placeholder="password" required><br>
+                        <input type1="password" name="pass" id="pass" placeholder="Confrim password" required><br>
+                    </div>
+                    <div class="card2">
+                            <h1 class="h2">Select your Package</h1>
+                        <div class="box">
+                            <select class="check">
+                                <option value="package">Click here for packages</option>
+                                <option value="package">200 Rs</option>
+                                <option value="package">300 Rs</option>
+                                <option value="package">400 Rs</option>
+                            </select><br>
+                            <input type="date" name="date" id="date" required><br>
+                            <a href="#four" class="btn1">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vi">
+           <div id="four">
+            <div class="d-flex d-row "> 
+                <div class="box1">
+                    <p class="p7">MONEY HEIST</p>
+                    <p class="p6">
+                        watch part 4 now<br>
+                        A criminal mastermind who goes by "The Professor" has a plan<br>
+                        to pull off the biggest heist in the recorded history<br>
+                        to help him carry out the ambigtious plan,he recruits eight People. 
+                        </p>
+                    <p class="p6">Stream on your phone,tablet,laptop,tv and <br>
+                        more..</p>
+                </div>
+
+             <div class="card4"></div>
+             </div>
+             <div class="card5">
+             <p class="p7">Movies</p>
+            <div class="d-flex d-row">
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+            <div class="box7"></div>
+            </div>
+            <p class="p7">Horr0r Movies</p>
+            <div class="d-flex d-row">
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+            <div class="box7"></div>
+            </div>
+    
+            <p class="p7">Thriller Movies</p>
+            <div class="d-flex d-row">
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+            <div class="box7"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+     <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
