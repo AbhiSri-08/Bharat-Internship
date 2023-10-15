@@ -1,0 +1,351 @@
+.bg {
+    background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+   
+}
+  
+  /* Style the select element */
+  .lan{
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px;
+    width:6vw;
+    font-size: 12px;
+    background-color:#000000;
+    color:#fff;
+    text-align: center;
+}
+
+.top{
+  margin-left:80vw;
+  padding: 20px;
+   
+}
+.it{
+    background-color: #000000;
+   
+
+}
+.img{
+    height:100px;
+    width: 300px;
+    opacity:0.6;
+
+}
+
+.btn{
+    background-color: #ff0000;
+    text-align: center;
+    font-size:16px;
+    width:100px;
+    height:30px;
+    margin-left:3px;
+    color: #fff;
+}
+.para{
+    text-align: center;
+    margin: 100px ;
+}
+
+.p1{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.p2{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+}
+.p3{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+input[type=text]{
+    color: #fff;
+    width:320px;
+    height:40px;
+    opacity:0.5;
+    margin-left:30vw;
+    background-color:#000000;
+}
+::placeholder{
+    color: #fff;
+    opacity:1;
+}
+textarea::placeholder{
+    color:#fff;
+}
+.button{
+    width:140px;
+    height: 40px;
+    background-color:red;
+    border:none;
+    font-size: 12px;
+    color: #fff;
+    
+}
+.bg2{
+    background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    opacity:0.9;
+    margin: 2px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:100px;
+
+
+}
+.card{
+
+    background-color: #000000;
+    width:500px;
+    opacity:1.0;
+    margin:0px 35vw;
+    height:35vw;
+    
+    
+
+
+    
+}
+.h{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+    padding:30px 30px;
+}
+
+input[type=email],input[type=password]{
+    color: white;
+    width:360px;
+    height:30px;
+    margin:10px 30px;
+    padding: 3px;
+    border:1px solid white;
+    background-color: black;
+    
+
+}
+.btn1{
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #fff;
+    width: 360px;
+    height: 40px;
+    margin:15px 30px;
+    padding:10px 140px;
+    font-weight: bold;
+    border: none;
+}
+.p6{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.bg3{
+    background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
+    height:100vh;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+ .card1{
+    background-color: #000000;
+    height:500px;
+    width:30vw;
+    opacity:0.8;
+    /* margin-left: 270px;
+    margin-top: 90px; */
+    
+}
+.h1{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+    padding:30px 30px;
+}
+.card2{
+    background-color: #000000;
+    height:500px;
+    width:30vw;
+    opacity:0.8;
+    /* margin:0 40vw ; */
+    /* margin-left: 730px;
+    margin-top: -500px; */
+
+}
+.h2{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+    padding:30px 30px;
+}
+
+input[type=text1],input[type=number],
+input[type=email1],input[type=Username]{
+    background-color: #000000;
+    width:360px;
+    color:white;
+    height:30px;
+    font-weight: 600;
+    margin:15px 30px;
+    padding: 3px;
+    border: 1px solid white;
+
+}
+#pass1{
+    background-color: #000000;
+    width:360px;
+    height:30px;
+    font-weight: 600;
+    margin:15px 30pxpx;
+    padding: 3px;
+    border: 1px solid white;
+}
+.check{
+    background-color:#ff0000;
+    width:360px;
+    height:40px;
+    color:white;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:10px;
+    margin:15px 25px;
+
+}
+.box{
+    margin: 15px 30px;
+}
+input[type=date]{
+    width:360px;
+    height:30px;
+    background-color: black;
+    color:white;
+    margin:15px 25px;
+    padding: 3px;
+    border: 1px solid white;
+    
+}
+.vi{
+    background-color: black;
+    height:170vh;
+    width:100vw;
+    margin: 0px auto;
+    color: #fff;
+    border: none;
+}
+
+.card4{
+    background-image: url('https://static.toiimg.com/thumb/msid-103783109,width-1280,height-720,resizemode-4/103783109.jpg');
+    background-size: cover;
+    height:500px;
+    width:100vw;
+}
+
+.p6{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
+    padding-left:20px;
+
+}
+.box1{
+    padding:60px 45px;
+}
+.box2{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.7nxvf-6dt4lPP9amke9KAAHaLk&pid=Api&P=0&h=180');
+    background-size: cover;
+    height:8vw;
+    width: 160px;
+    margin-left:5vw;
+}
+.box2:hover{
+    opacity:0.8;
+}
+.box3{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.7nxvf-6dt4lPP9amke9KAAHaLk&pid=Api&P=0&h=180');
+     background-size: cover;
+    height: 8vw;
+    width: 160px;
+    margin-left:5vw;
+}
+.box3:hover{
+    opacity: 0.8;
+}
+.box4{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.7nxvf-6dt4lPP9amke9KAAHaLk&pid=Api&P=0&h=180');
+    background-size: cover;
+    height: 8vw;
+    width: 160px;
+    margin-left:5vw;
+}
+.box4:hover{
+    opacity: 0.8;
+}
+.box5{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.7nxvf-6dt4lPP9amke9KAAHaLk&pid=Api&P=0&h=180'); 
+    background-size: cover;
+    height:8vw;
+    width: 160px;
+    margin-left:5vw;
+}
+.box5:hover{
+    opacity: 0.8;
+}.box6{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.7nxvf-6dt4lPP9amke9KAAHaLk&pid=Api&P=0&h=180');
+    background-size: cover;
+    height:8vw;
+    width: 160px;
+    margin-left:5vw;
+}
+.box6:hover{
+    opacity: 0.8;
+}
+.box7{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.7nxvf-6dt4lPP9amke9KAAHaLk&pid=Api&P=0&h=180');
+    background-size: cover;
+    height:8vw;
+    width: 160px;
+    margin-left: 5vw;
+}
+.box7:hover{
+    opacity:0.8;
+}
+.p7{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    padding:15px 30px;
+    color: #fff;
+}
+#i2{
+    margin-left: 10px;
+    color:white;
+}
+#i3{
+    margin-left: 10px;
+    color:#fff;
+
+}
+#i{
+    color: white;
+    margin-left: 10px;
+}
+#id1{
+    color: white;
+    margin-left: 300px;
+    margin-top: -32px;
+}
